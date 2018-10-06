@@ -108,9 +108,17 @@ h1::after {
     flex-wrap: nowrap;
     justify-content: space-between; 
 }
-.info div {
-    width: 50%;
+.info div:not(.photo) {
+    width: 40%;
     padding: 20px;
+}
+.info .photo {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 100%;
+    background-image: url(../images/photo.png);
+    background-size: cover;
 }
 .info .contacts ul {
     list-style: none;
