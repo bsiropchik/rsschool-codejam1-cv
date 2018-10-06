@@ -253,10 +253,18 @@ h1::after {
 .skills ul li:nth-of-type(5)::before {
     background-color: #a44f34;
 }
-.skills ul li:nth-of-type(1)::after {
+/* .skills ul li:nth-of-type(1)::after {
     content: "78%";
     width: 580px;
     background-color: #e7945e;
+} */
+.skills ul li:nth-of-type(1)::after {
+    content: "78%";
+    width: 580px;
+    height: 0;
+    line-height: 0;
+    border: 15px solid #e7945e;
+    border-right: 15px solid transparent;
 }
 .skills ul li:nth-of-type(1):hover::after {
     width: 600px;
@@ -264,7 +272,10 @@ h1::after {
 .skills ul li:nth-of-type(2)::after {
     content: "87%";
     width: 670px;
-    background-color: #b6dcd7;
+    height: 0;
+    line-height: 0;
+    border: 15px solid #b6dcd7;
+    border-right: 15px solid transparent;
 }
 .skills ul li:nth-of-type(2):hover::after {
     width: 690px;
@@ -272,7 +283,10 @@ h1::after {
 .skills ul li:nth-of-type(3)::after {
     content: "56%";
     width: 360px;
-    background-color: #df6451;
+    height: 0;
+    line-height: 0;
+    border: 15px solid #df6451;
+    border-right: 15px solid transparent;
 }
 .skills ul li:nth-of-type(3):hover::after {
     width: 380px;
@@ -280,7 +294,11 @@ h1::after {
 .skills ul li:nth-of-type(4)::after {
     content: "70%";
     width: 500px;
-    background-color: #f5cb62;
+    height: 0;
+    line-height: 0;
+    border: 15px solid #f5cb62;
+    border-right: 15px solid transparent;
+    
 }
 .skills ul li:nth-of-type(4):hover::after {
     width: 520px;
@@ -288,7 +306,10 @@ h1::after {
 .skills ul li:nth-of-type(5)::after {
     content: "100%";
     width: 700px;
-    background-color: #eaa370;
+    height: 0;
+    line-height: 0;
+    border: 15px solid #eaa370;
+    border-right: 15px solid transparent;
 }
 .skills ul li:nth-of-type(5):hover::after {
     width: 720px;
